@@ -1,9 +1,11 @@
+const db = require('./db-config')
+
 const getAll = () => {
-  // DO YOUR MAGIC
+  deleteById('accounts');
 }
 
 const getById = id => {
-  // DO YOUR MAGIC
+  
 }
 
 const create = account => {
